@@ -118,13 +118,13 @@
 
 // let sayigirisi10=prompt("Sayı veya kelime girin.")
 
-// if (isNaN(sayigirisi10)) { 
+// if (isNaN(sayigirisi10)) {
 //     console.log("Girdiğiniz değer stringdir.");
-// } else { 
+// } else {
 //     console.log("Girdiğiniz değer sayıdır.");
 // }
 
-//! 13- Doğum Yılı Hesaplama 
+//! 13- Doğum Yılı Hesaplama
 
 //* Kullanıcının doğduğu yılı alarak kaç yaşında olduğunu hesaplayan bir program yazın.
 
@@ -134,7 +134,7 @@
 
 // console.log("Yaşınız = " + (now.getFullYear()-dogumTarihi));
 
-//! 14- Null ve Undefined Farkı 
+//! 14- Null ve Undefined Farkı
 
 //* Bir değişkeni önce null , sonra undefined  olarak tanımlayın ve her iki durumda da değişkenin türünü ekrana yazdırın.
 
@@ -209,4 +209,3 @@
 // dizi.push(prompt("Eleman giriniz."))
 
 // console.log("İlk eleman: " + dizi[0] + "\nSon Eleman: " + dizi[dizi.length - 1] );
-
