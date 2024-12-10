@@ -7,7 +7,7 @@ let cevap1 = (sayi1 > 0) ? "Pozitif bir sayı girdiniz." : (sayi1 === 0) ?
     "Girdiğiniz sayı sıfırdır." : "Negatif bir sayı girdiniz."
 console.log(cevap1);
 
-//* 2 - Kredi Başvuru Durumu: Bir kişinin kredi puanı 700 veya daha yüksekse "Kredi onaylandı", 500 ile 699 arasındaysa "Ek belgeler gerekli", 500'ün altındaysa "Kredi reddedildi" döndürün. 
+//* 2 - Kredi Başvuru Durumu: Bir kişinin kredi puanı 700 veya daha yüksekse "Kredi onaylandı", 500 ile 699 arasındaysa "Ek belgeler gerekli", 500'ün altındaysa "Kredi reddedildi" döndürün.
 
 const krediPuani=700;
 let basvuruDurumu= (krediPuani<500) ? "Kredi talebi reddedildi." : (krediPuani>=700) ? "Kredi talebiniz onaylanmıştır." : "Ek belgeler gereklidir."
